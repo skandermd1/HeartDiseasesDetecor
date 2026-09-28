@@ -1,0 +1,50 @@
+name: CI
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+env:
+  IMAGE_NAME: Heart/heart-disease-api
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: |
+          python -m unittest tests.test_model_builder
+
+      - name: Build app syntax check
+        run: |
+          python -m compileall app src
+
+      - name: Build Docker image
+        run: |
+          docker build -t $IMAGE_NAME:latest .
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOCKEN }}
+
+      - name: Push Docker image
+        run: |
+          docker push $IMAGE_NAME:latest
