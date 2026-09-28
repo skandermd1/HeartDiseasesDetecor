@@ -7,7 +7,7 @@ on:
     branches: [ main, master ]
 
 env:
-  IMAGE_NAME: Heart/heart-disease-api
+  IMAGE_NAME: skon1/heart
 
 jobs:
   test:
