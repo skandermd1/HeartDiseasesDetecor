@@ -1,0 +1,8 @@
+fastapi
+matplotlib
+mlflow
+notebook
+numpy
+pandas
+scikit-learn
+uvicorn[standard]

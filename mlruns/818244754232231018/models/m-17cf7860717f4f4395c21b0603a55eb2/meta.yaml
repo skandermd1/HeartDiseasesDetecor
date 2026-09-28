@@ -1,0 +1,10 @@
+artifact_location: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/models/m-17cf7860717f4f4395c21b0603a55eb2/artifacts
+creation_timestamp: 1790526717758
+experiment_id: '818244754232231018'
+last_updated_timestamp: 1790526717866
+model_id: m-17cf7860717f4f4395c21b0603a55eb2
+model_type: null
+name: decision_tree_model
+source_run_id: 487282f1554c4cfa99d407c2601bb8ab
+status: 3
+status_message: null

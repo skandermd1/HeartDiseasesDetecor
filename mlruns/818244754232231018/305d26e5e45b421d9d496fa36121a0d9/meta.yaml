@@ -1,0 +1,14 @@
+artifact_uri: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/305d26e5e45b421d9d496fa36121a0d9/artifacts
+end_time: 1790526777986
+entry_point_name: ''
+experiment_id: '818244754232231018'
+lifecycle_stage: active
+run_id: 305d26e5e45b421d9d496fa36121a0d9
+run_name: decision_tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790526774116
+status: 3
+tags: []
+user_id: USERµ

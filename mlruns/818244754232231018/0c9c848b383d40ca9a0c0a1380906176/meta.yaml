@@ -1,0 +1,14 @@
+artifact_uri: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/0c9c848b383d40ca9a0c0a1380906176/artifacts
+end_time: 1790526717618
+entry_point_name: ''
+experiment_id: '818244754232231018'
+lifecycle_stage: active
+run_id: 0c9c848b383d40ca9a0c0a1380906176
+run_name: logistic_regression
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790526712847
+status: 3
+tags: []
+user_id: USERµ

@@ -1,0 +1,10 @@
+artifact_location: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/models/m-e0e15cb844994f74bebbf889981d466b/artifacts
+creation_timestamp: 1790526000156
+experiment_id: '818244754232231018'
+last_updated_timestamp: 1790526005086
+model_id: m-e0e15cb844994f74bebbf889981d466b
+model_type: null
+name: logistic_regression_model
+source_run_id: f65310f0a63c4fba963ac16094d17ba4
+status: 2
+status_message: null

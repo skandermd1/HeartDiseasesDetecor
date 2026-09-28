@@ -1,0 +1,10 @@
+artifact_location: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/models/m-1ebe3333d96f405492109e447ea151ef/artifacts
+creation_timestamp: 1790526778212
+experiment_id: '818244754232231018'
+last_updated_timestamp: 1790526782256
+model_id: m-1ebe3333d96f405492109e447ea151ef
+model_type: null
+name: random_forest_model
+source_run_id: a33c465ed198469299840f3345902669
+status: 2
+status_message: null

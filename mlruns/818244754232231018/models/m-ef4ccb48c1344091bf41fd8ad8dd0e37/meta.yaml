@@ -1,0 +1,10 @@
+artifact_location: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/models/m-ef4ccb48c1344091bf41fd8ad8dd0e37/artifacts
+creation_timestamp: 1790526750938
+experiment_id: '818244754232231018'
+last_updated_timestamp: 1790526751066
+model_id: m-ef4ccb48c1344091bf41fd8ad8dd0e37
+model_type: null
+name: knn_model
+source_run_id: ecc9c7979fd84708bf05c4d32a3696b1
+status: 3
+status_message: null

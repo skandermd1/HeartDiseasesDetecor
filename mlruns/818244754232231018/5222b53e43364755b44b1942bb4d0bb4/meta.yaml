@@ -1,0 +1,14 @@
+artifact_uri: c:\Users\USERµ\Desktop\HeartDiseasePrediction\mlruns/818244754232231018/5222b53e43364755b44b1942bb4d0bb4/artifacts
+end_time: 1790526786140
+entry_point_name: ''
+experiment_id: '818244754232231018'
+lifecycle_stage: active
+run_id: 5222b53e43364755b44b1942bb4d0bb4
+run_name: knn
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1790526782301
+status: 3
+tags: []
+user_id: USERµ

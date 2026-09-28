@@ -1,0 +1,26 @@
+artifact_path: "c:\\Users\\USER\xB5\\Desktop\\HeartDiseasePrediction\\mlruns/818244754232231018/models/m-f3e0d9afff34497580499fd852ab53e2/artifacts"
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.3
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - sklearn.tree._tree.Tree
+    - sklearn.neighbors._kd_tree.KDTree
+    - sklearn.metrics._dist_metrics.EuclideanDistance64
+mlflow_version: 3.16.1
+model_id: m-f3e0d9afff34497580499fd852ab53e2
+model_size_bytes: 13057
+model_uuid: m-f3e0d9afff34497580499fd852ab53e2
+prompts: null
+run_id: 2a35b16b4b3e4063893aab9a3be09e3f
+utc_time_created: '2026-09-27 16:32:49.597898'
